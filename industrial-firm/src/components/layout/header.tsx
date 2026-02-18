@@ -43,8 +43,8 @@ const Header: React.FC = () => {
             <div className="w-10 h-10 bg-industrial-orange rounded-lg flex items-center justify-center text-white font-bold text-xl shadow-lg group-hover:scale-105 transition-transform">
               {siteData.company.name.charAt(0)}
             </div>
-            <span className="text-2xl font-bold text-white tracking-tight">
-              {siteData.company.name.split(' ')[0]}<span className="text-industrial-orange">{siteData.company.name.split(' ')[1]}</span>
+            <span className="text-2xl font-bold text-black tracking-tight">
+              {siteData.company.name.split(' ')[0]}<span className="text-industrial-red">{siteData.company.name.split(' ')[1]}</span>
             </span>
           </Link>
 

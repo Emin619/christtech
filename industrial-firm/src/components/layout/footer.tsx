@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div>
             <h3 className="text-2xl font-bold font-mono mb-6">
-              ChristTech <span className="text-industrial-orange">Engineering</span>
+              Christtech <span className="text-industrial-orange">Engineering</span>
             </h3>
             <p className="text-gray-400 mb-6">
               Precision engineering solutions for the heavy industry sector. Building the future of infrastructure.
@@ -63,7 +63,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-white/10 pt-8 text-center text-gray-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} ChristTech Engineering. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Christtech Engineering. All rights reserved.</p>
         </div>
       </div>
     </footer>
