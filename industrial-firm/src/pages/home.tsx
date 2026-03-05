@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { CheckCircle2, Monitor, Factory, Waves, Construction, ArrowRight, MapPin, Wrench, Zap } from 'lucide-react';
+import { CheckCircle2, Monitor, Factory, Construction, ArrowRight, MapPin, Wrench, Zap } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { siteData } from '../data/sitedata';

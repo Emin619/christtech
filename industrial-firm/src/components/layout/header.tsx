@@ -3,8 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, useScroll, useMotionValueEvent } from 'framer-motion';
-import { Menu, X, Phone, Search, ArrowRight } from 'lucide-react';
-import { siteData } from '../../data/sitedata';
+import { Menu, X, Phone, ArrowRight } from 'lucide-react';
 
 // Brand colors from logo:
 // Primary Red:  #EF0921
