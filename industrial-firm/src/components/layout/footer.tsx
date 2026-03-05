@@ -9,10 +9,13 @@ const Footer: React.FC = () => {
     <footer className="bg-industrial-navy pt-16 pb-8">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+          
           <div>
             <h3 className="text-2xl font-bold font-mono mb-6">
-              Christtech <span className="text-industrial-orange">Engineering</span>
+
+              Christtech <span className="text-industrial-red">Engineering</span>
             </h3>
+            <img src="src/assets/Christtech_logo.svg" alt="Christtech Engineering Logo" className="w-10 h-15"/>
             <p className="text-gray-400 mb-6">
               Precision engineering solutions for the heavy industry sector. Building the future of infrastructure.
             </p>
