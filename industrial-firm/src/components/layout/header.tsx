@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, useScroll, useMotionValueEvent } from 'framer-motion';
 import { Menu, X, Phone, ArrowRight } from 'lucide-react';
+import christtechLogo from '../../assets/Christtech_logo.svg';
 
 // Brand colors from logo:
 // Primary Red:  #EF0921
@@ -42,7 +43,7 @@ const Header: React.FC = () => {
           <Link to="/" className="flex items-center gap-3 group">
             {/* Icon mark — mirrors logo shape conceptually */}
             <div className="flex items-center justify-center shadow-md group-hover:scale-105 transition-transform">
-              <img src="src/assets/Christtech_logo.svg" alt="Christtech Engineering Logo" className="w-12 h-15"/>
+              <img src={christtechLogo} alt="Christtech Engineering Logo" className="w-12 h-15"/>
             </div>
             <div className="flex flex-col leading-none">
               <span className={`text-lg font-black tracking-tight transition-colors ${transparent ? 'text-[#0030c2]' : 'text-[#0030c2]'}`}>

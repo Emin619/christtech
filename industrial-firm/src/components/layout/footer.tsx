@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import { FiFacebook, FiTwitter, FiLinkedin } from 'react-icons/fi';
+import christtechLogo from '../../assets/Christtech_logo.svg';
 
 const Footer: React.FC = () => {
   return (
@@ -15,7 +16,7 @@ const Footer: React.FC = () => {
 
               Christtech <span className="text-industrial-red">Engineering</span>
             </h3>
-            <img src="src/assets/Christtech_logo.svg" alt="Christtech Engineering Logo" className="w-10 h-15"/>
+            <img src={christtechLogo} alt="Christtech Engineering Logo" className="w-10 h-15"/>
             <p className="text-gray-400 mb-6">
               Precision engineering solutions for the heavy industry sector. Building the future of infrastructure.
             </p>
