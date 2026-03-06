@@ -3,6 +3,8 @@ import { CheckCircle2, Monitor, Factory, Construction, ArrowRight, MapPin, Wrenc
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { siteData } from '../data/sitedata';
+import industrialPlantImg from '../assets/industrial_plant.png';
+import indianMapImg from '../assets/indian_map.png';
 
 // ─── BRAND COLORS (from logo SVG) ─────────────────────────────────────
 // Primary Red:  #EF0921   Deep Blue: #0841F1   Orange: #ea580c
@@ -59,7 +61,7 @@ const IndustrialPlantPNG = ({ activeId }: { activeId: string | null }) => {
 
       {/* ── THE PNG IMAGE ── */}
       <img
-        src="src/assets/industrial_plant.png"
+        src={industrialPlantImg}
         alt="Industrial boiler plant and chimney erection technical drawing"
         className="w-full h-full object-contain relative z-10"
         style={{
@@ -209,7 +211,7 @@ const IndiaMapSVG = ({ activeId }: { activeId: string | null }) => (
 
       {/* ── THE PNG IMAGE ── */}
       <img
-        src="src/assets/indian_map.png"
+        src={indianMapImg}
         alt="Industrial boiler plant and chimney erection technical drawing"
         className="w-full h-full object-contain relative z-10"
         style={{
